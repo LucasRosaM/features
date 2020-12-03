@@ -1,8 +1,8 @@
-#language pt
+#language: pt
 Funcionalidade: Buscar uma batata
 
   Cenário: Pesquisando no Gooogle
-   Dado que tenha o Chrome instalado
-   Quando digitar batata na barra de pesquisa
+   Dado que esteja na home
+   Quando digitar "batata" na barra de pesquisa
    E abrir imagens
-   Então devera aparecer uma batata
+   Então devera aparecer a imagem da "batata"
