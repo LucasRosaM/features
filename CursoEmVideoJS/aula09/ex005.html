@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+
+        body{
+            background-color: teal;
+            color: white;
+            font: normal 18pt Arial;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Iniciando Estudos</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavasScript.</p>
+    <div id = 'msg'>Click em mim</div>
+
+    <script>
+        var p1 = window.document.getElementsByTagName('p')[1]//Como temos mais de um paragrafo, devemos selecionar pelo index
+        window.document.write(p1.innerText) //InnerText é pra mostrar o texto que esta dentro do p1
+        window.document.write(p1.innerHTML) //Aqui ele vem formatado
+        p1.style.color = 'blue' // ele muda lá no site
+        var d = window.document.getElementById('msg')//Pegando a DIV
+        d.style.background = 'green'
+        d.innerText = 'estou aki'
+        //var e = window.document.querySelector('div#msg')//uma maneira diferente de pegar a div
+       // e.style.background = 'blue'
+    </script>
+</body>
+</html>
