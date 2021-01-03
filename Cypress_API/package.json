@@ -1,0 +1,18 @@
+{
+  "name": "Cypress_API",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open:NYTapi": "./node_modules/.bin/cypress open",
+    "cypress:run:NYTapi": "./node_modules/.bin/cypress run",
+    "cypress:open:fakeapi": "cypress open --config-file ./cypress.fakeapi.json"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.2.0"
+  }
+}

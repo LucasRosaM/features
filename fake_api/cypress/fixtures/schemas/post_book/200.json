@@ -1,0 +1,89 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": {},
+    "examples": [
+        {
+            "id": 0,
+            "title": "string",
+            "description": "string",
+            "pageCount": 0,
+            "excerpt": "string",
+            "publishDate": "2020-12-29T17:20:34.222Z"
+        }
+    ],
+    "required": [
+        "id",
+        "title",
+        "description",
+        "pageCount",
+        "excerpt",
+        "publishDate"
+    ],
+    "properties": {
+        "id": {
+            "$id": "#/properties/id",
+            "type": "integer",
+            "title": "The id schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "title": {
+            "$id": "#/properties/title",
+            "type": "string",
+            "title": "The title schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "string"
+            ]
+        },
+        "description": {
+            "$id": "#/properties/description",
+            "type": "string",
+            "title": "The description schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "string"
+            ]
+        },
+        "pageCount": {
+            "$id": "#/properties/pageCount",
+            "type": "integer",
+            "title": "The pageCount schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "excerpt": {
+            "$id": "#/properties/excerpt",
+            "type": "string",
+            "title": "The excerpt schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "string"
+            ]
+        },
+        "publishDate": {
+            "$id": "#/properties/publishDate",
+            "type": "string",
+            "title": "The publishDate schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "2020-12-29T17:20:34.222Z"
+            ]
+        }
+    },
+    "additionalProperties": true
+}
