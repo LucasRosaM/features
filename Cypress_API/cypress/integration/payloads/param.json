@@ -1,0 +1,5 @@
+{
+    "genero" : ["e-book-fiction", "hardcover-fiction"],
+    "autores" : ["Tolkien", "Carmen"],
+    "datas": ["2013-05-22", "2010-07-22"]
+}
